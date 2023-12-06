@@ -3,6 +3,10 @@
   "displayName": "customimport",
   "description": "Import the definition of variable in PHP.",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JackEd0/phpvariableimport.git"
+  },
   "engines": {
     "vscode": "^1.82.0"
   },
