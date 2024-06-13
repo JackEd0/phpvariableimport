@@ -63,7 +63,7 @@ export function activate(context: vscode.ExtensionContext) {
 
         // Insert the comment at the beginning of the file.
         editor.edit((editBuilder) => {
-          const position = new vscode.Position(1, 0);
+          const position = new vscode.Position(2, 0);
           editBuilder.insert(position, phpComment);
         });
       }
